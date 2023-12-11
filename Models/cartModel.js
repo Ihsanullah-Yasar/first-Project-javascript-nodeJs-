@@ -1,16 +1,17 @@
-const Sequelize=require('sequelize');
-const sequelize=require('../utilities/database');
+//// bellow code is related to the earlier version of that worked with sequelize and mysql
+// const Sequelize = require("sequelize");
+// const sequelize = require("../utilities/database");
 
-const Cart=sequelize.define('cart',{
-  id: {
-    type: Sequelize.INTEGER,
-    autoIncrement: true,
-    allowNull: false,
-    primaryKey: true
-  }
-});
+// const Cart = sequelize.define("cart", {
+//   id: {
+//     type: Sequelize.INTEGER,
+//     autoIncrement: true,
+//     allowNull: false,
+//     primaryKey: true,
+//   },
+// });
 
-module.exports= Cart;
+// module.exports = Cart;
 
 // the code bellow is file system related code for cart model
 
